@@ -21,7 +21,7 @@ function App() {
         value={size}
         onChange={(e) => setSize(e.target.value)}
       />
-      <button onClick={() => setIsDark(!isDark)}>Change Theme</button>
+      <button onClick={() => setIsDark(!isDark)}>Change Theme.</button>
       <Box createBoxStyle={createBoxStyle} />
     </div>
   );
